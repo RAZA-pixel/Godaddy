@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domain Search - GoDaddy Clone</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">GoDaddy Clone</div>
+                <div class="nav-links">
+                    <a href="../index.html">Home</a>
+                    <a href="domains.html" class="active">Domains</a>
+                    <a href="pricing.html">Pricing</a>
+                    <a href="hosting.html">Hosting</a>
+                    <a href="cart.html" class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span id="cart-count">0</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="domains-page">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Find Your Perfect Domain Name</h1>
+                <p>Search for your unique domain name and make it yours forever.</p>
+                <div class="search-container">
+                    <input type="text" class="search-input" id="domain-search" placeholder="Enter your domain name">
+                    <button class="search-btn" id="search-btn">
+                        <i class="fas fa-search"></i>
+                        Search Domain
+                    </button>
+                </div>
+                <div class="domain-extensions">
+                    <span class="domain-extension">.com</span>
+                    <span class="domain-extension">.net</span>
+                    <span class="domain-extension">.org</span>
+                    <span class="domain-extension">.io</span>
+                    <span class="domain-extension">.dev</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="domain-results-container" id="search-results">
+            <!-- Example result card (will be populated by JavaScript) -->
+            <div class="domain-result-card">
+                <div class="domain-info">
+                    <h3 class="domain-name">example.com</h3>
+                    <span class="domain-availability available">Available</span>
+                </div>
+                <div class="domain-price">$12.99</div>
+                <div class="domain-actions">
+                    <button class="price-btn add-to-cart-btn">
+                        <i class="fas fa-cart-plus"></i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="section-header">
+                <h2>Premium Domain Features</h2>
+                <p>Everything you need to secure and manage your domain name</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Domain Privacy</h3>
+                    <p>Keep your personal information private and secure from public WHOIS databases.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync"></i>
+                    </div>
+                    <h3>Auto-Renewal</h3>
+                    <p>Never worry about losing your domain name with automatic renewal service.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-forward"></i>
+                    </div>
+                    <h3>Domain Forwarding</h3>
+                    <p>Easily redirect your domain to any website or landing page.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <ul>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Products</h4>
+                <ul>
+                    <li><a href="domains.html">Domains</a></li>
+                    <li><a href="hosting.html">Hosting</a></li>
+                    <li><a href="#">SSL Certificates</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 GoDaddy Clone. This is a demo project.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html> 
